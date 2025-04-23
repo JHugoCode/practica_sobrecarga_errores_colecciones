@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\PRACTICA DE CAMPO 3 JAVA\practica de campo3\bin\Debug\practica de campo3.exe.config
+C:\Users\User\Desktop\PRACTICA DE CAMPO 3 JAVA\practica de campo3\bin\Debug\practica de campo3.exe
+C:\Users\User\Desktop\PRACTICA DE CAMPO 3 JAVA\practica de campo3\bin\Debug\practica de campo3.pdb
+C:\Users\User\Desktop\PRACTICA DE CAMPO 3 JAVA\practica de campo3\obj\Debug\practica de campo3.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\PRACTICA DE CAMPO 3 JAVA\practica de campo3\obj\Debug\practica de campo3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PRACTICA DE CAMPO 3 JAVA\practica de campo3\obj\Debug\practica de campo3.exe
+C:\Users\User\Desktop\PRACTICA DE CAMPO 3 JAVA\practica de campo3\obj\Debug\practica de campo3.pdb
