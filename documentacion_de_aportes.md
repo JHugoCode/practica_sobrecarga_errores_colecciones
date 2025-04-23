@@ -1,6 +1,6 @@
 # Documentación de Aportes
 
-## Aportes de [Tu Nombre]
+## Aportes de Alex suma
 - **Implementación de la sobrecarga de métodos**: Se crearon varios métodos `Saludar` con diferentes parámetros (nombre, apellido, edad).
 - **Manejo de errores**: Se implementaron bloques `try-catch` para manejar errores, incluyendo la división por cero y excepciones generales.
 
