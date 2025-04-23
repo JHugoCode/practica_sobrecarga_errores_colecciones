@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Suma con Validación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        input {
+            margin: 5px 0;
+            padding: 5px;
+        }
+        #resultado {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Simulación de sobrecarga de método</h2>
+
+    <label>Número 1: <input type="number" id="num1"></label><br>
+    <label>Número 2: <input type="number" id="num2"></label><br>
+    <label>Número 3 (opcional): <input type="number" id="num3"></label><br><br>
+
+    <button onclick="sumar()">Sumar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function sumar() {
+            const res = document.getElementById("resultado");
+            res.classList.remove("error");
+            res.innerText = "";
+
+            const a = document.getElementById("num1").value;
+            const b = document.getElementById("num2").value;
+            const c = document.getElementById("num3").value;
+
+            // Validación
+            if (a === "" || b === "") {
+                res.classList.add("error");
+                res.innerText = "Por favor, completa al menos los dos primeros números.";
+                return;
+            }
+
+            let numA = parseFloat(a);
+            let numB = parseFloat(b);
+
+            if (isNaN(numA) || isNaN(numB)) {
+                res.classList.add("error");
+                res.innerText = "Los valores deben ser números válidos.";
+                return;
+            }
+
+            let resultado;
+
+            if (c !== "") {
+                let numC = parseFloat(c);
+                if (isNaN(numC)) {
+                    res.classList.add("error");
+                    res.innerText = "El tercer valor no es un número válido.";
+                    return;
+                }
+                resultado = numA + numB + numC;
+            } else {
+                resultado = numA + numB;
+            }
+
+            res.innerText = "Resultado: " + resultado;
+        }
+    </script>
+</body>
+</html>
